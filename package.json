@@ -10,6 +10,7 @@
     "report": "playwright show-report"
   },
   "dependencies": {
+    "@applitools/eyes-playwright": "^1.47.9",
     "dotenv": "^16.4.5"
   },
   "devDependencies": {

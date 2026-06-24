@@ -7,5 +7,6 @@ export const ENV = {
   baseUrl: process.env.BASE_URL || "https://eventhub.rahulshettyacademy.com/login",
   username: "ifiokabasibom@gmail.com",
   password: "Password1$",
-  headless: process.env.HEADLESS === "true"
+  headless: process.env.HEADLESS === "true",
+  APPLITOOLS_API_KEY: "qKk1dRF104hajVfWJ7oh7bZ2dKCfr4ExIFoMJxXrSm3XQ110"
 };
