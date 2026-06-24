@@ -1,5 +1,5 @@
 // TODO: LoginPage implementation
-import { Page } from "@playwright/test";
+import { expect, Page } from "@playwright/test";
 import type { Page as PlaywrightPage } from "@playwright/test";
 import { BasePage } from "./BasePage";
 
@@ -29,11 +29,11 @@ export class LoginPage extends BasePage {
   }
 
   async loginScreenItems(){
-    if(await this.registerText.isVisible()){
+    if(expect(this.registerText.isVisible())){
       console.log ("Register Button is Visible")
     };
 
-    if(!await this.swaggerLink.isVisible()){
+    if(!expect(this.swaggerLink.isVisible())){
       console.log ("SwggerLink is not Visible")
     };
 
