@@ -1,0 +1,60 @@
+playwright-automation-framework/
+│
+├── pages/
+│   ├── BasePage.ts
+│   ├── LoginPage.ts
+│   ├── DashboardPage.ts
+│   ├── ProfilePage.ts
+│   ├── NavbarComponent.ts
+│   └── SidebarComponent.ts
+│
+├── fixtures/
+│   ├── customFixtures.ts
+│   └── testData.json
+│
+├── helpers/
+│   ├── authHelper.ts
+│   ├── screenshotHelper.ts
+│   └── waitHelper.ts
+│
+├── utils/
+│   ├── env.ts
+│   ├── logger.ts
+│   ├── apiHelper.ts
+│   ├── retry.ts
+│   └── locatorFactory.ts
+│
+├── constants/
+│   ├── endpoints.ts
+│   ├── routes.ts
+│   └── messages.ts
+│
+├── tests/
+│   ├── auth.setup.ts
+│   │
+│   ├── ui/
+│   │   ├── login.spec.ts
+│   │   ├── dashboard.spec.ts
+│   │   └── profile.spec.ts
+│   │
+│   └── api/
+│       └── posts.spec.ts
+│
+├── auth/
+│   └── user.json
+│
+├── playwright.config.ts
+│
+├── .github/
+│   └── workflows/
+│       └── playwright.yml
+│
+├── README.md
+│
+├── package.json
+│
+├── tsconfig.json
+│
+├── .env.example
+│
+└── .gitignore
